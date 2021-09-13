@@ -2,9 +2,8 @@
 
 result = `bash generate_string.sh`
 
-if ["$result" == "ABCDEFG"]
-then
-  echo PASSED THE TEST
+if ["$result" == "ABCDEFG"] ;then
+  echo "PASSED THE TEST"
   exit 0
 else
   echo ERROR

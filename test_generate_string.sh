@@ -3,7 +3,7 @@
 
 cat generate_string.sh
 
-RES1 = `generate_string.sh`
+RES1 = "$(bash generate_string.sh)"
 
 if [ "${RES1}" == "ABCDEFG" ]
 then

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This is made by Ion
 
 RES1 = `bash generate_string.sh`
 

@@ -10,9 +10,7 @@ then
   echo "PASSED THE TEST"
   exit 0
 else
-  echo ERROR
-  echo expected "ABCDEFG"
-  echo got instead the result "$result"
+  echo "ERROR"
   exit 1
 fi
   

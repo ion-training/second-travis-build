@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-result = `bash generate_string.sh`
+RES1 = `bash generate_string.sh`
 
-if ["$result" == "ABCDEFG"] ;then
+if ["$RES1" == "ABCDEFG"] ;then
   echo "PASSED THE TEST"
   exit 0
 else

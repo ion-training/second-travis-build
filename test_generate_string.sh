@@ -5,7 +5,8 @@ cat generate_string.sh
 
 RES1 = `generate_string.sh`
 
-if [ $RES1 == "ABCDEFG" ] ;then
+if [ "${RES1}" == "ABCDEFG" ]
+then
   echo "PASSED THE TEST"
   exit 0
 else
